@@ -32,7 +32,7 @@ modu³ obs³uguje parê brzydszych szczegó³ów tej reprezentacji.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
