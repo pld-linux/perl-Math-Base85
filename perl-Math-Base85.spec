@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Base85
+%define		pdir	Math
+%define		pnam	Base85
 Summary:	Math::Base85 Perl module for base 85 numbers, as referenced by RFC 1924
 Summary(pl):	Modu³ Perla Math::Base85 do liczb o podstawie 85, opisanych w RFC 1924
 Name:		perl-Math-Base85
