@@ -34,7 +34,7 @@ modu³ obs³uguje parê brzydszych szczegó³ów tej reprezentacji.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
