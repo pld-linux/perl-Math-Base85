@@ -9,12 +9,12 @@ Summary:	Math::Base85 Perl module for base 85 numbers, as referenced by RFC 1924
 Summary(pl):	Modu³ Perla Math::Base85 do liczb o podstawie 85, opisanych w RFC 1924
 Name:		perl-Math-Base85
 Version:	0.2
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,7 +32,8 @@ modu³ obs³uguje parê brzydszych szczegó³ów tej reprezentacji.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -49,5 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Math/Base85.pm
+%{perl_vendorlib}/Math/Base85.pm
 %{_mandir}/man3/*
