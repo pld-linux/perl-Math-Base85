@@ -10,7 +10,8 @@ Summary(pl):	Modu³ Perla Math::Base85 do liczb o podstawie 85, opisanych w RFC 1
 Name:		perl-Math-Base85
 Version:	0.2
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3a2914651dc680fd22661f35213211d3
