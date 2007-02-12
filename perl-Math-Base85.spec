@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Base85
 Summary:	Math::Base85 Perl module for base 85 numbers, as referenced by RFC 1924
-Summary(pl):	Modu³ Perla Math::Base85 do liczb o podstawie 85, opisanych w RFC 1924
+Summary(pl.UTF-8):   ModuÅ‚ Perla Math::Base85 do liczb o podstawie 85, opisanych w RFC 1924
 Name:		perl-Math-Base85
 Version:	0.2
 Release:	2
@@ -25,10 +25,10 @@ RFC 1924 (1 April 1996) describes a compact, fixed-size representation
 of IPv6 addresses which uses a base 85 number system. This module
 handles some of the uglier details of it.
 
-%description -l pl
-RFC 1924 (z 1 kwietnia 1996) opisuje zwart±, o sta³ym rozmiarze
-reprezentacjê adresów IPv6, u¿ywaj±c± systemu o podstawie 85. Ten
-modu³ obs³uguje parê brzydszych szczegó³ów tej reprezentacji.
+%description -l pl.UTF-8
+RFC 1924 (z 1 kwietnia 1996) opisuje zwartÄ…, o staÅ‚ym rozmiarze
+reprezentacjÄ™ adresÃ³w IPv6, uÅ¼ywajÄ…cÄ… systemu o podstawie 85. Ten
+moduÅ‚ obsÅ‚uguje parÄ™ brzydszych szczegÃ³Å‚Ã³w tej reprezentacji.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
