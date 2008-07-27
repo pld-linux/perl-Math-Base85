@@ -9,7 +9,7 @@ Summary:	Math::Base85 Perl module for base 85 numbers, as referenced by RFC 1924
 Summary(pl.UTF-8):	Moduł Perla Math::Base85 do liczb o podstawie 85, opisanych w RFC 1924
 Name:		perl-Math-Base85
 Version:	0.2
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
