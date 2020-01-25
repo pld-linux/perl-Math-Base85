@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	Base85
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Base85 Perl module for base 85 numbers, as referenced by RFC 1924
 Summary(pl.UTF-8):	Moduł Perla Math::Base85 do liczb o podstawie 85, opisanych w RFC 1924
 Name:		perl-Math-Base85
